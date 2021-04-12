@@ -12,7 +12,7 @@ const declarables = [HeaderComponent, FooterComponent];
   imports: [
     CommonModule,
     RouterModule,
-    MaterialCdkModule
+    MaterialCdkModule,
   ],
   exports: declarables,
 })
